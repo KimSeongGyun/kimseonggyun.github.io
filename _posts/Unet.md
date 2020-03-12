@@ -1,3 +1,9 @@
+---
+title: "[논문구현] U-net:Convolutional Networks for Biomedical Image Segmentation"
+date: 2020-03-12 23:29:28 -0400
+categories: Paper Study
+---
+
 오늘 다른 논문은 2015년 발표된 [U-net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) 입니다. 
 
 이전까지의 Convolutional Networks는 주로 하나의 Image 전체에 대해 하나의 Class를 부여하는 Classification 문제를 푸는데 주로 쓰였습니다. 하지만 Medical Image를 처리할 때에는 Image의 각 pixel마다 Class를 부여할 필요가 생겼고, 이를 위해 새롭게 구현된 구조가 U-net입니다. 우선 U-net의 구조를 간단히 살펴보겠습니다.
